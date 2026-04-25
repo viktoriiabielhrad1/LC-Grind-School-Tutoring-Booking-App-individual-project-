@@ -5,10 +5,10 @@
     let type = $derived(page.url.searchParams.get('type') ?? '');
     let level = $derived(page.url.searchParams.get('level') ?? '');
     let datetime = $derived(page.url.searchParams.get('datetime') ?? '');
+    let price = $derived(page.url.searchParams.get('price') ?? '');
 
     let { data }: { data: any } = $props();
     let lastBooked = $derived(data.lastSubject ?? '');
-
 </script>
 
 
@@ -45,6 +45,11 @@
         <div class="summary-item">
             <span class="label">Last Booked Subject:</span>
             <span class="value">{lastBooked || 'N/A'}</span>
+        </div>
+         <div class="summary-item">
+            <span class="label">Price:</span>
+          <span class="value">€{price}</span>
+
         </div>
     </div>
 

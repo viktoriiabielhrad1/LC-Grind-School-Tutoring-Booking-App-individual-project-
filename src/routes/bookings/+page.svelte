@@ -23,7 +23,9 @@
         {/if}
         <p><strong>Date/Time:</strong>
     {b.datetime ? new Date(b.datetime).toLocaleString() : 'N/A'}</p>
-    </div>
+    <p>Price: €{b.price}</p>
+
+</div>
 {/each}<br><br>
 <style>
 .unbounded{

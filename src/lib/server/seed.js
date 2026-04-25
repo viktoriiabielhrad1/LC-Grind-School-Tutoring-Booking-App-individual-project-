@@ -9,12 +9,17 @@ import seedUsers from '$lib/data/users.json';
 
 // Deletes all rows from every auth table (order matters — FK constraints).
 // Accepts a db instance so it can be called from outside SvelteKit (e.g. seed.js).
+// Safe delete helper with explicit types so TS doesn't complain
 export function clearDatabase(dbInstance = db) {
 	dbInstance.delete(verification).run();
 	dbInstance.delete(session).run();
 	dbInstance.delete(account).run();
 	dbInstance.delete(user).run();
 }
+
+
+
+
 
 // Inserts all users from users.json and their credential accounts.
 // Returns an array of the inserted email addresses.

@@ -6,7 +6,7 @@
     let { data }: { data: any } = $props();
 </script>
 
-
+<br><br>
 {#each data.tutors as tutor}
 <div class="tutors">
     <h1>{tutor.title}</h1>

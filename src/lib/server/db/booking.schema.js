@@ -10,5 +10,6 @@ export const booking = sqliteTable('booking', {
     type: text('type'),
     level: text('level'),
     address: text('address'),
-    datetime: integer('datetime', { mode: 'timestamp_ms' })
+    datetime: integer('datetime', { mode: 'timestamp_ms' }),
+    price: integer('price')
 });

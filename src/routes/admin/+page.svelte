@@ -52,6 +52,8 @@
                             <td>{b.level}</td>
                             <td>{b.type}</td>
                             <td>{b.datetime}</td>
+                            <td>€{b.price}</td>
+
                             <td>
                                 <form method="POST" action="?/deleteBooking">
                                     <input type="hidden" name="id" value={b.id}>

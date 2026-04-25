@@ -1,6 +1,8 @@
 <script>
     import subjects from '$lib/data/subjects.json';
     const allSubjects = Object.values(subjects).flat();
+const { form } = $props();
+
 
 
 </script>
@@ -47,8 +49,18 @@
 
     <button type="submit">Confirm Booking</button><br>
 </form>
+{#if form?.error}
+    <p class="error">{form.error}</p>
+{/if}
+
 </div>
 <style>
+.error {
+    color: #ffffff;
+    margin-bottom: 10px;
+     text-shadow: 0 0 8px rgb(255, 0, 0);
+}
+
     .form{
         text-align: center;
     max-width: 600px;
