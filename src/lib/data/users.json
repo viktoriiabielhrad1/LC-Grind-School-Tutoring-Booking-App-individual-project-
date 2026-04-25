@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Matt",
+		"email": "matt@tud.ie",
+		"password": "password",
+		"balance": 100,
+		"category": "elite",
+		"role": "ROLE_ADMIN",
+		"image": "/images/matt.png"
+	},
+	{
+		"name": "Joe",
+		"email": "joe@apple.com",
+		"password": "password",
+		"balance": 0,
+		"category": "bronze",
+		"role": "ROLE_MEMBER",
+		"image": "/images/default.svg"
+	},
+	{
+		"name": "Viktoriia",
+		"email": "viktoriia@google.com",
+		"password": "password",
+		"balance": 0,
+		"category": "elite",
+		"role": "ROLE_ADMIN",
+		"image": "/images/default.svg"
+	}
+]

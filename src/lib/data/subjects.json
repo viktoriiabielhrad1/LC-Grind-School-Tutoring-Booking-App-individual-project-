@@ -1,0 +1,9 @@
+{
+  "Sciences": ["Biology", "Chemistry", "Physics", "Agricultural Science"],
+  "Core Subjects": ["English", "Irish", "Mathematics"],
+  "Business & Economics": ["Business", "Accounting", "Economics"],
+  "Languages": ["French", "Spanish", "German", "Italian", "Polish", "Russian", "Japanese", "Arabic", "Mandarin Chinese"],
+  "Humanities & Social Sciences": ["History", "Geography", "Classical Studies", "Religious Education", "Politics & Society"],
+  "Applied Subjects": ["Home Economics", "Music", "Art", "DCG", "Construction Studies", "Engineering", "Technology"],
+  "Other Common Subjects": ["Computer Science", "LCPE", "Applied Maths"]
+}

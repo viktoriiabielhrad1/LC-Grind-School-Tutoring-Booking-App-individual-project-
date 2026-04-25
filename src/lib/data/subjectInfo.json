@@ -1,0 +1,206 @@
+{
+  "Biology": {
+    "description": "Biology explores living organisms, genetics, ecology, and human physiology. Students develop analytical and practical lab skills.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Cell Structure", "Genetics", "Ecology", "Human Biology", "Microorganisms", "Evolution"],
+    "pricing": { "online": 35, "homeVisit": 45 }
+  },
+  "Chemistry": {
+    "description": "Chemistry focuses on chemical reactions, atomic structure, bonding, and practical laboratory investigations.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Atomic Theory", "Bonding", "Stoichiometry", "Organic Chemistry", "Volumetric Analysis", "Thermochemistry"],
+    "pricing": { "online": 38, "homeVisit": 50 }
+  },
+  "Physics": {
+    "description": "Physics examines motion, forces, energy, electricity, waves, and modern physics concepts.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Mechanics", "Waves", "Electricity", "Light", "Modern Physics", "Heat"],
+    "pricing": { "online": 38, "homeVisit": 50 }
+  },
+  "Agricultural Science": {
+    "description": "Agricultural Science covers farming practices, soil science, animal physiology, and sustainable food production.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Soil Science", "Animal Physiology", "Plant Science", "Genetics", "Farm Management"],
+    "pricing": { "online": 32, "homeVisit": 42 }
+  },
+  "English": {
+    "description": "English develops skills in comprehension, composition, comparative study, and poetry analysis.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Comprehension", "Composition", "Poetry", "Drama", "Comparative Study", "Shakespeare"],
+    "pricing": { "online": 30, "homeVisit": 40 }
+  },
+  "Irish": {
+    "description": "Irish focuses on reading, writing, listening, and spoken fluency, with emphasis on cultural understanding.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Aural", "Oral", "Poetry", "Prose", "Grammar", "Composition"],
+    "pricing": { "online": 30, "homeVisit": 40 }
+  },
+  "Mathematics": {
+    "description": "Mathematics builds problem‑solving skills through algebra, geometry, trigonometry, and calculus.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Algebra", "Functions", "Trigonometry", "Calculus", "Statistics", "Geometry"],
+    "pricing": { "online": 40, "homeVisit": 55 }
+  },
+  "Business": {
+    "description": "Business explores enterprise, management, finance, and the role of organisations in society.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Enterprise", "Management", "Finance", "Marketing", "Economics", "Business Environment"],
+    "pricing": { "online": 32, "homeVisit": 45 }
+  },
+  "Accounting": {
+    "description": "Accounting focuses on financial statements, budgeting, cost analysis, and business decision‑making.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Final Accounts", "Club Accounts", "Costing", "Budgeting", "Ratio Analysis"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "Economics": {
+    "description": "Economics examines markets, government policy, inflation, employment, and global trade.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Supply & Demand", "Market Structures", "National Income", "Inflation", "International Trade"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "French": {
+    "description": "French develops communication skills through reading, writing, listening, and oral expression.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral Communication", "Listening", "Reading", "Grammar", "Written Expression"],
+    "pricing": { "online": 33, "homeVisit": 45 }
+  },
+  "Spanish": {
+    "description": "Spanish focuses on practical communication, grammar, listening, and cultural understanding.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral", "Listening", "Reading", "Grammar", "Writing"],
+    "pricing": { "online": 33, "homeVisit": 45 }
+  },
+  "German": {
+    "description": "German develops linguistic skills through comprehension, oral work, grammar, and written tasks.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral", "Listening", "Reading", "Grammar", "Writing"],
+    "pricing": { "online": 33, "homeVisit": 45 }
+  },
+  "Italian": {
+    "description": "Italian emphasises communication, grammar, listening, and cultural awareness.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral", "Listening", "Reading", "Grammar", "Writing"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Polish": {
+    "description": "Polish focuses on reading, writing, listening, and oral fluency for heritage and non‑native speakers.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral", "Listening", "Reading", "Grammar", "Writing"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Russian": {
+    "description": "Russian develops comprehension, grammar, vocabulary, and cultural understanding.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Oral", "Listening", "Reading", "Grammar", "Writing"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Japanese": {
+    "description": "Japanese includes reading, writing, listening, speaking, and cultural studies.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Kanji", "Grammar", "Listening", "Oral", "Reading"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "Arabic": {
+    "description": "Arabic focuses on reading, writing, listening, and oral communication with emphasis on grammar.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Grammar", "Listening", "Reading", "Writing", "Oral"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "Mandarin Chinese": {
+    "description": "Mandarin develops communication skills through characters, listening, speaking, and cultural learning.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Characters", "Listening", "Speaking", "Reading", "Grammar"],
+    "pricing": { "online": 38, "homeVisit": 52 }
+  },
+  "History": {
+    "description": "History explores political, social, and cultural developments through research and document analysis.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Irish History", "European History", "Document Analysis", "Research Study Report"],
+    "pricing": { "online": 30, "homeVisit": 40 }
+  },
+  "Geography": {
+    "description": "Geography examines physical landscapes, human activity, and environmental interactions.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Rivers", "Coasts", "Population", "Climate", "Geoecology", "Economic Geography"],
+    "pricing": { "online": 30, "homeVisit": 40 }
+  },
+  "Classical Studies": {
+    "description": "Classical Studies explores ancient Greek and Roman civilisation, literature, and archaeology.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Mythology", "Greek Drama", "Roman History", "Archaeology"],
+    "pricing": { "online": 28, "homeVisit": 38 }
+  },
+  "Religious Education": {
+    "description": "Religious Education examines world religions, ethics, and philosophical questions.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["World Religions", "Ethics", "Philosophy", "Faith & Culture"],
+    "pricing": { "online": 28, "homeVisit": 38 }
+  },
+  "Politics & Society": {
+    "description": "Politics & Society explores citizenship, human rights, political systems, and social change.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Human Rights", "Citizenship", "Political Systems", "Social Change"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Home Economics": {
+    "description": "Home Economics covers nutrition, family studies, textiles, and practical cookery.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Nutrition", "Food Science", "Family Studies", "Textiles"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Music": {
+    "description": "Music develops performance, composition, and listening analysis skills.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Performance", "Composition", "Aural Skills", "Set Works"],
+    "pricing": { "online": 35, "homeVisit": 50 }
+  },
+  "Art": {
+    "description": "Art focuses on practical creativity, art history, and design skills.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Drawing", "Painting", "Sculpture", "Art History"],
+    "pricing": { "online": 32, "homeVisit": 45 }
+  },
+  "DCG": {
+    "description": "Design & Communication Graphics teaches 3D modelling, technical drawing, and design principles.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["3D Modelling", "Orthographic Drawing", "Design", "Geometry"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "Construction Studies": {
+    "description": "Construction Studies covers building design, materials, and practical woodworking skills.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Building Design", "Materials", "Construction Technology", "Woodwork"],
+    "pricing": { "online": 32, "homeVisit": 45 }
+  },
+  "Engineering": {
+    "description": "Engineering teaches metalwork, mechanics, design, and manufacturing processes.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Mechanics", "Materials", "Manufacturing", "Design"],
+    "pricing": { "online": 35, "homeVisit": 48 }
+  },
+  "Technology": {
+    "description": "Technology explores electronics, systems, design, and problem‑solving.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Electronics", "Mechanisms", "Design", "Systems Technology"],
+    "pricing": { "online": 32, "homeVisit": 45 }
+  },
+  "Computer Science": {
+    "description": "Computer Science covers programming, problem‑solving, algorithms, and computational thinking.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Programming", "Algorithms", "Data Representation", "Computational Thinking"],
+    "pricing": { "online": 38, "homeVisit": 52 }
+  },
+  "LCPE": {
+    "description": "Leaving Certificate Physical Education focuses on performance, movement, and sports science.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Performance Analysis", "Skill Development", "Sports Science", "Movement"],
+    "pricing": { "online": 30, "homeVisit": 42 }
+  },
+  "Applied Maths": {
+    "description": "Applied Maths develops problem‑solving skills through mechanics, motion, and mathematical modelling.",
+    "levels": ["Higher", "Ordinary"],
+    "topics": ["Linear Motion", "Projectiles", "Newton’s Laws", "Vectors", "Differential Equations"],
+    "pricing": { "online": 40, "homeVisit": 55 }
+  }
+}
