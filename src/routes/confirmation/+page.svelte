@@ -1,14 +1,16 @@
-<script>
-    let { data } = $props();
+<script lang="ts">
+    import { page } from '$app/state';
 
-   let subject = $state('');
-let type = $state('');
-let level = $state('');
-let datetime = $state('');
-let lastBooked = $state('');
+    let subject = $derived(page.url.searchParams.get('subject') ?? '');
+    let type = $derived(page.url.searchParams.get('type') ?? '');
+    let level = $derived(page.url.searchParams.get('level') ?? '');
+    let datetime = $derived(page.url.searchParams.get('datetime') ?? '');
 
+    let { data }: { data: any } = $props();
+    let lastBooked = $derived(data.lastSubject ?? '');
 
 </script>
+
 
 
 

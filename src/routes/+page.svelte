@@ -1,25 +1,11 @@
 <script>
-    import { onMount } from 'svelte';
+  
     import subjects from '$lib/data/subjects.json';
     const categories = Object.entries(subjects);
 
-    let showBanner = $state(true);
-
-    onMount(() => {
-        const cookies = document.cookie.split(';');
-        for (let cookie of cookies) {
-            if (cookie.trim() === 'cookieConsent=accepted') {
-                 console.log("Cookie found. Hiding banner");
-                showBanner = false;
-                break;
-            }
-        }
-    });
-
-    function acceptCookies() {
-        document.cookie = 'cookieConsent=accepted; path=/; max-age=31536000';
-        showBanner = false;
-    }
+    
+ let { data } = $props();
+   
       function goToBookPage() {
     window.location.href = '/book';
   }
@@ -37,10 +23,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </svelte:head>
 
-{#if showBanner}
+{#if data.showBanner}
+
 <div class="cookie-banner">
     <p>We use cookies to improve your experience.</p>
-    <button onclick={acceptCookies}>Accept</button>
+    <form method="POST" action="?/acceptCookies">
+    <button type="submit">Accept</button>
+</form>
+
 </div>
 {/if}
 
