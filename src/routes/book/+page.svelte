@@ -31,7 +31,7 @@
     </select><br>
    
      <label for="address">Address</label><br>
-    <input id="address" name="address" type="text" placeholder="Your address..."><br>
+    <input id="address" name="address" type="text" placeholder="Your address (required for Home Visit)..."><br>
 
 
 <label for="level">Level</label><br>

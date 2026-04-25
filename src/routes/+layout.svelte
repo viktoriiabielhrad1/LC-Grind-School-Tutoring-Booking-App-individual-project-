@@ -20,24 +20,25 @@
     |
     <a href="/tutors">Tutors</a>
     |
-    <a href="/book">Book a Grind</a>
-    |
     {#if data.role === 'ROLE_ADMIN'}
         <a href="/admin">Admin Dashboard</a>
         |
-        <form method="post" action="/logout">
-            <button type="submit">Logout</button>
-        </form>
+        <form method="post" action="/logout" style="display: inline;">
+    <button type="submit" class="logout-link">Logout</button>
+</form>
 
     {:else if data.isLoggedIn}
-
+        <a href="/book">Book a Grind</a>
+        |
         <a href="/bookings">My Bookings</a>
         |
-        <form method="post" action="/logout">
-            <button type="submit">Logout</button>
-        </form>
+        <form method="post" action="/logout" style="display: inline;">
+    <button type="submit" class="logout-link">Logout</button>
+</form>
 
     {:else}
+    <a href="/book">Book a Grind</a>
+        |
         <a href="/login">login</a>
     {/if}
 </nav>
@@ -54,14 +55,35 @@
 
 </div>
 
-
-
 <footer>
     <hr>
   <p>&copy; 2026 Leaving Cert Grind School</p>
 </footer>
 
 <style>
+.logout-link {
+  background: none;
+  border: none;
+  padding: 0.4rem 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  font-family: inherit; /* ensures same font */
+}
+
+.logout-link:hover {
+  color: #0892e1ff;
+}
+
+nav:has(a:hover) .logout-link:not(:hover) {
+  opacity: 0.3;
+}
+
     img{
         width: 80px;
         height:80px;
