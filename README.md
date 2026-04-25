@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FEDev-Project-Starter
 
 This project is a basic SvelteKit project, with some basic email+password authentication:
@@ -66,3 +67,6 @@ To allow `/routes/+layout.svelte` to be able to display the currently logged in 
 Everything should all just work for you, but you can learn a litle more about this here:
 - [README_CACHE_DISABLED.md](README_CACHE_DISABLED.md)
 
+=======
+# IndividualProject
+>>>>>>> c1385ca8ab9e55521b8145be4225397531c7c6e2

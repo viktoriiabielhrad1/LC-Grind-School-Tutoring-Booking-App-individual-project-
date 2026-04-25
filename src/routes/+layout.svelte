@@ -3,8 +3,6 @@
 
     let { children, data } = $props();
 
-    
-    const role = data.role;
 
 </script>
 
@@ -23,39 +21,42 @@
     <a href="/tutors">Tutors</a>
     |
     <a href="/book">Book a Grind</a>
-   {#if role === 'ROLE_ADMIN'}
-    <a href="/admin">Admin Dashboard</a>
     |
-    <form method="post" action="/logout">
-        <button type="submit">Logout</button>
-    </form>
+    {#if data.role === 'ROLE_ADMIN'}
+        <a href="/admin">Admin Dashboard</a>
+        |
+        <form method="post" action="/logout">
+            <button type="submit">Logout</button>
+        </form>
 
-{:else if data.isLoggedIn}
-    <a href="/bookings">My Bookings</a>
-    |
-    <form method="post" action="/logout">
-        <button type="submit">Logout</button>
-    </form>
+    {:else if data.isLoggedIn}
 
-{:else}
-    <a href="/login">login</a>
-{/if}
+        <a href="/bookings">My Bookings</a>
+        |
+        <form method="post" action="/logout">
+            <button type="submit">Logout</button>
+        </form>
+
+    {:else}
+        <a href="/login">login</a>
+    {/if}
+</nav>
 
 
 
 
-</nav><hr>
+<hr>
 </header>
 
    <div class="layout-bg">
    <hr>
     {@render children()}
+
 </div>
 
 
 
 <footer>
-    
     <hr>
   <p>&copy; 2026 Leaving Cert Grind School</p>
 </footer>
