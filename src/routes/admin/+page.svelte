@@ -40,6 +40,7 @@
                         <th>Level</th>
                         <th>Type</th>
                         <th>Date/Time</th>
+                        <th>Price</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
