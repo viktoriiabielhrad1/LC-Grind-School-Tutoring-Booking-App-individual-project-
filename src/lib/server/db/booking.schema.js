@@ -1,4 +1,4 @@
-// src/lib/server/db/schema.js (or wherever you put it)
+
 
 import { sqliteTable, text, integer } from 'drizzle-orm/sqlite-core';
 

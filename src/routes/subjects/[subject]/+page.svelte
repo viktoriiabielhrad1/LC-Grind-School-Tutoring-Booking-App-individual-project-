@@ -2,8 +2,7 @@
     import { page } from '$app/stores';
     import subjectInfo from '$lib/data/subjectInfo.json';
 
-   
- // TS is a bit dumb here, so we help it:
+
     /** @type {keyof typeof subjectInfo | undefined} */
     
 // @ts-ignore

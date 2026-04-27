@@ -73,7 +73,7 @@
   cursor: pointer;
   text-decoration: none;
   transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  font-family: inherit; /* ensures same font */
+  font-family: inherit; 
 }
 
 .logout-link:hover {

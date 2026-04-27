@@ -2,9 +2,6 @@
     import subjects from '$lib/data/subjects.json';
     const allSubjects = Object.values(subjects).flat();
 const { form } = $props();
-
-
-
 </script>
 <svelte:head>
     <title>Book a Grind - Grind School</title>

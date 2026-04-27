@@ -16,14 +16,5 @@
 		"category": "bronze",
 		"role": "ROLE_MEMBER",
 		"image": "/images/default.svg"
-	},
-	{
-		"name": "Viktoriia",
-		"email": "viktoriia@google.com",
-		"password": "password",
-		"balance": 0,
-		"category": "elite",
-		"role": "ROLE_ADMIN",
-		"image": "/images/default.svg"
 	}
 ]

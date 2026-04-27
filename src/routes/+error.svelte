@@ -35,8 +35,6 @@
   {/if}
   <style>
 
-
-/*https://www.w3schools.com/Css/css_dropdowns.asp - dropdown menu src*/
  p{
     font-size: 20px;
     

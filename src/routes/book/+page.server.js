@@ -34,12 +34,12 @@ export const actions = {
         const address = data.get('address')?.toString();
         const datetime = data.get('datetime')?.toString();
 
-        // SIMPLE REQUIRED FIELDS CHECK
+        // required fields check
         if (!name || !email || !subject || !type || !level || !datetime) {
             return fail(400, { error: 'Please fill in all required fields.' });
         }
 
-        // Tell TypeScript these are now definitely strings
+    
         /** @type {string} */
         const subjectStr = subject;
 

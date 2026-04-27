@@ -9,7 +9,5 @@ export const load = async (event) => {
 
 	const users = await resetDatabase();
 
-	// Override the layout's user data so the header shows "not logged in"
-	// on this same render, since the session cookie is now cleared.
 	return { users, isLoggedIn: false, user: undefined };
 };

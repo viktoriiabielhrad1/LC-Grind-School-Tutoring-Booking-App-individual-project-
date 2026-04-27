@@ -29,5 +29,5 @@ export const auth = betterAuth({
 			}
 		}
 	},
-	plugins: [sveltekitCookies(getRequestEvent)] // make sure this is the last plugin in the array
+	plugins: [sveltekitCookies(getRequestEvent)] 
 });

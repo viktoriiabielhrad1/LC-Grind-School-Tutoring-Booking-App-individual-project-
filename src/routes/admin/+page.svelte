@@ -1,11 +1,9 @@
 <script>
-    // Svelte 5 rule: $props() must be a simple top-level initializer
+   
     const props = $props();
 
-    // Now safely extract your data
     const data = props.data;
 
-    // Destructure your values
     const { bookings, users, tutors, subjects } = data;
 </script>
 
