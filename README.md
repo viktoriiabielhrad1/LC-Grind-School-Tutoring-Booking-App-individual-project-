@@ -30,8 +30,8 @@ A “Book a Grind” button for quick navigation
 A heading and short introductory paragraph
 
 Step 3 — Creating the Tutors Page (initial static version)
-Next, I created the Tutors page. At first, this page was hardcoded with simple <h1> and <p> tags showing tutor name, subject, and bio.
 -
+Next, I created the Tutors page. At first, this page was hardcoded with simple <h1> and <p> tags showing tutor name, subject, and bio.
 
 This early version included:
 
